@@ -1,7 +1,7 @@
 *HOW TO PUSH YOUR CHANGES TO GIT HUB*
 
 1. Cut your own branch from `master` locally, typing:
-    `git checkout -b name_of_your_branch`
+    `git checkout -b name_of_your_branch`git
     and create remote copy
     `git push --set-upstream origin name_of_your_branch`
     The name of your local branch must match the name of your remote branch.
@@ -10,12 +10,11 @@
         
 2. Type `git branch` to verify that you created the branch
     (your currently branch will appear in green)
-    
+
     ----
 3. Make your changes
 
-4. Run `git status` - your changes will appear in red    
-
+4. Run `git status` - your changes will appear in red
 5. Add ALL your changes to staging by typing `git add .`
     
     OR
@@ -31,16 +30,16 @@
     Use different labels [ADDED] [CHANGED] [IMPROVED] [FIXED] [DELETED]
     to better understand what you did on branch
 
-8. Switch to master to update code on master branch
-    Type: `git checkout master`
-    And then: `git pull`
-    
 9. Switch to your branch again
     Type `git checkout name_of_your_branch`
 
 10. Type `git merge master` to make sure there won't be any conflicts in your future PR.
 
 11. If there is no conflicts, you can push to github.
+8. Switch to master to update code on master branch
+    Type: `git checkout master`
+    And then: `git pull`
+
     Being on your branch, type `git push`
     
 12. Once you collected all the changes on your remote branch, 
