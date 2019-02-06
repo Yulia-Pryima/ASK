@@ -8,7 +8,7 @@ public class MyStepdefs {
     public void pushRegisterNowLink() {
     }
 
-    @And("^Type First Name  \"([^\"]*)\"$")
+    @And("^Type First Name \"([^\"]*)\"$")
     public void typeFirstName(String arg0) throws Throwable {
         // Write code here that turns the phrase above into concrete actions
         throw new PendingException();
@@ -47,5 +47,15 @@ public class MyStepdefs {
     public void deleteStudentWithName(String arg0) throws Throwable {
         // Write code here that turns the phrase above into concrete actions
         throw new PendingException();
+    }
+
+    @And("^Type First Name \"([^\"]*)\"$")
+    public void typeFirstName(String arg0) throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        throw new PendingException();
+    }
+
+    @And("^Push Register Now$")
+    public void pushRegisterNow() {
     }
 }
